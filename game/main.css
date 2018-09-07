@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#game-wrapper{
+    width: 603px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#game-wrapper div{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+span{
+    display: block;
+    transform: rotate(45deg);
+    text-align: center;
+    font-size: 300px;
+}
